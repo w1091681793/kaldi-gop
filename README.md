@@ -38,3 +38,6 @@ $$
 where $Q$ is the whole phone set.
 
 The numerator of the equation is calculated from forced alignment result and the denominator is calculated from a Viterbi decoding with an unconstrained phone loop.
+
+## FIX
+In this script, it could not be run successfully, as the apply-cmvn or other commands can't be found, but we could configure the kaldi path to solve this. In other words, currently i install a kaldi, and point to the src/featbin/ for these commands.
